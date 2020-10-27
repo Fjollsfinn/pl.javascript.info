@@ -1,14 +1,14 @@
-# The "switch" statement
+# Instrukcja "switch"
 
-A `switch` statement can replace multiple `if` checks.
+Instrukcja  `switch` może zastąpić wiele sprawdzeń wykonywanych za pomocą instrukcji `if` .
 
-It gives a more descriptive way to compare a value with multiple variants.
+Daje ona bardziej opisowy sposób porównywania wartości z wieloma wariantami.
 
-## The syntax
+## Składnia
 
-The `switch` has one or more `case` blocks and an optional default.
+Instrukcja `switch` składa się z jednego bądź więcej bloków przypadków `case`, oraz opcjonalnego bloku `default`. 
 
-It looks like this:
+Wygląda to następująco:
 
 ```js no-beautify
 switch(x) {
